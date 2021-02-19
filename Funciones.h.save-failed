@@ -1,0 +1,88 @@
+#ifndef FUNCIONES_H_INCLUDED
+#define FUNCIONES_H_INCLUDED
+
+void CantidadDeJugadores(int *Cant,bool *flag)
+{
+    int CJ;
+        while(*flag==false)
+        {
+            system("cls");
+
+            recuadro(40, 4, 22, 6, cROJO_CLARO, cAZUL);
+            textcolor(cROJO_CLARO, cAZUL);
+
+            gotoxy(45,6);
+            cout << " 1 Jugador" << endl;
+            gotoxy(45,8);
+            cout << " 2 Jugadores" << endl;
+
+            recuadro(35, 16, 32, 4, cROJO_CLARO, cAZUL);
+            textcolor(cROJO_CLARO, cAZUL);
+
+            gotoxy(40,18);
+            cout << "Ingrese la Cantidad: " << endl;
+            gotoxy(63,18);
+            cin >>CJ;
+
+            if(CJ==1 || CJ==2)
+            {
+                *flag=true;
+                *Cant=CJ;
+            }
+            else
+            {
+                system("cls");
+                recuadro(42, 11, 19, 4, cROJO_CLARO, cAZUL);
+                textcolor(cROJO_CLARO, cAZUL);
+                gotoxy(45,13);
+                cout << "Ingrese 1 o 2" << endl << endl << endl << endl;
+                getch();
+            }
+        }
+    }
+
+    void NombreDeLosJugadores(char *Nombre,char *Nombre2,int CJ,bool *flag)
+    {
+
+        if (CJ==1){
+        cout << "Ingrese el Nombre del Jugador: ";
+        cin >> *Nombre;
+        *flag=true;
+        }
+
+        if (CJ==2){
+        cout << "Ingrese el Nombre del Jugador 1: ";
+        cin >> *Nombre;
+
+        cout << "Ingrese el Nombre del Jugador 2: ";
+        cin >> *Nombre2;
+        *flag=true;
+        }
+
+    }
+
+    /*int (){
+
+
+    switch(){
+
+        case 1:
+        for( = ; <3; ++){
+
+
+        }
+
+        break;
+
+        case 2:
+        for( = ; <3; ++){
+
+
+        }
+
+        break;
+    }
+    }
+    */
+
+#endif // FUNCIONES_H_INCLUDED

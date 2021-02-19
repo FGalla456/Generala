@@ -1,0 +1,146 @@
+# depslib dependency file v1.0
+1498369412 source:c:\users\franco\desktop\programacion\generala\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Funciones 2.h"
+	"Grafica.h"
+	"Funciones.h"
+
+1275488132 c:\users\franco\desktop\programacion\generala\funciones 2.h
+	<windows.h>
+
+1498369603 c:\users\franco\desktop\programacion\generala\grafica.h
+
+1498364104 c:\users\franco\desktop\programacion\generala\funciones.h
+
+1498369412 source:e:\programacion\generala\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Funciones 2.h"
+	"Grafica.h"
+	"Funciones.h"
+
+1275488132 e:\programacion\generala\funciones 2.h
+	<windows.h>
+
+1498422597 e:\programacion\generala\grafica.h
+
+1498364104 e:\programacion\generala\funciones.h
+
+1498447957 source:c:\users\franco\desktop\generala\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	"Funciones 2.h"
+	"Grafica.h"
+	"Funciones.h"
+
+1275488132 c:\users\franco\desktop\generala\funciones 2.h
+	<windows.h>
+
+1498422597 c:\users\franco\desktop\generala\grafica.h
+
+1498448256 c:\users\franco\desktop\generala\funciones.h
+
+1499666957 source:c:\users\franco\google drive\generala\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<pthread.h>
+	"FuncionesGraficas.h"
+	"Juego.h"
+	"Jugadas.h"
+	"Grafica.h"
+	"Inicio.h"
+
+1498448289 c:\users\franco\google drive\generala\funciones 2.h
+	<windows.h>
+
+1498788897 c:\users\franco\google drive\generala\funciones.h
+
+1499667032 c:\users\franco\google drive\generala\grafica.h
+	<windows.h>
+
+1498793813 c:\users\franco\google drive\generala\funcionesgraficas.h
+	<windows.h>
+
+1498661348 source:c:\users\administrador\desktop\nueva carpeta\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<conio.h>
+	<windows.h>
+	"FuncionesGraficas.h"
+	"Funciones.h"
+	"Grafica.h"
+
+1498650394 c:\users\administrador\desktop\nueva carpeta\funcionesgraficas.h
+	<windows.h>
+
+1498661973 c:\users\administrador\desktop\nueva carpeta\funciones.h
+
+1498661058 c:\users\administrador\desktop\nueva carpeta\grafica.h
+
+1498789542 c:\users\franco\google drive\generala\inicio.h
+
+1499665089 c:\users\franco\google drive\generala\juego.h
+	"Grafica.h"
+
+1498832165 source:c:\users\miriam\desktop\generala\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+	<conio.h>
+	<windows.h>
+	"FuncionesGraficas.h"
+	"Juego.h"
+	"Grafica.h"
+	"Inicio.h"
+
+1498775282 c:\users\miriam\desktop\generala\funcionesgraficas.h
+	<windows.h>
+
+1498830027 c:\users\miriam\desktop\generala\juego.h
+
+1498833036 c:\users\miriam\desktop\generala\grafica.h
+	<windows.h>
+
+1498775142 c:\users\miriam\desktop\generala\inicio.h
+
+1500185932 source:c:\users\w10\google drive\generala\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	<pthread.h>
+	"FuncionesGraficas.h"
+	"Juego.h"
+	"Jugadas.h"
+	"Grafica.h"
+	"Inicio.h"
+
+1498833396 c:\users\w10\google drive\generala\funcionesgraficas.h
+	<windows.h>
+
+1500185867 c:\users\w10\google drive\generala\juego.h
+	"Grafica.h"
+
+1500186111 c:\users\w10\google drive\generala\grafica.h
+	<windows.h>
+
+1498833434 c:\users\w10\google drive\generala\inicio.h
+
+1499662366 c:\users\w10\google drive\generala\jugadas.h
+
+1499662366 c:\users\franco\google drive\generala\jugadas.h
+

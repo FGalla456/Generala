@@ -1,0 +1,109 @@
+#include <iostream>
+using namespace std;
+#include <cstdlib>
+#include <ctime>
+#include<stdio.h>
+#include <conio.h>
+#include <windows.h>
+#include "FuncionesGraficas.h"
+#include "Juego.h"
+#include "Grafica.h"
+#include "Inicio.h"
+
+int main()
+{
+    int X;///Caratula
+    int Opcion,Izquierda,Derecha,Reloj; ///Menu General
+    int Opcion2; ///Reglas
+    int CJ,XD=0; /// Case 1 int printf(const char *formato)
+    char Nombre[50],Nombre2[50];///Nombre de los jugadores
+    bool Ver=false,NJ=false; ///Comprobacion De Arranque del Juego
+
+ ///   caratula(X);
+
+   // system("pause");
+
+    srand(time(NULL));
+    while(true)
+    {
+        system ("cls");
+
+
+//      TiempoAbierto(Reloj);
+
+        DadoIzquierda(Izquierda);
+
+        DadoDerecha(Derecha);
+
+        Opcion=Menu(Opcion);
+
+        system ("cls");
+
+        switch(Opcion)
+        {
+        case 1:
+           CantidadDeJugadores(&CJ,&Ver,&XD);
+            break;
+
+        case 2:
+            if(Ver==true)
+            {
+                NombreDeLosJugadores(&Nombre[50],&Nombre2[50],&NJ,CJ);
+
+            }
+            else
+            {
+                cout << "No se Ingreso Cantidad De Jugadores" << endl;
+                system("pause");
+            }
+            break;
+        case 3:
+            /* if(Ver==true && NJ==true)
+            // {
+                 if(CJ==1){
+
+
+                 }
+                 if(CJ==2){
+
+
+                 }
+
+             }
+             else
+             {
+                 if(Ver==false)
+                 {
+                     cout << "No se Ingreso Cantidad De Jugadores" << endl;
+                 }
+                 else
+                 {
+                     cout << "No se Ingreso el Nombre de los Jugadores" << endl;
+                 }
+             }*/
+            break;
+
+        case 4:
+            DadoIzquierda(Izquierda);
+
+            DadoDerecha(Derecha);
+
+            Reglas(Opcion2);
+
+            system("pause");
+            break;
+
+        case 0:
+            system("PAUSE > NULL");
+            return 0;
+
+            break;
+
+        default:
+            cout << "Telecom Informa que la Siguiente Caracteristica es Inexistente Consulte Llamando al *110, Muchas Gracias." << endl;
+            system("pause");
+            break;
+        }
+    }
+
+}
